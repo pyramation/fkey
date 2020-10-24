@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`works 1`] = `
+Object {
+  "all": Object {
+    "Action": Array [
+      "User",
+      "Action",
+    ],
+    "ActionGoal": Array [
+      "User",
+      "Action",
+      "Goal",
+      "ActionGoal",
+    ],
+    "ActionItem": Array [
+      "User",
+      "Action",
+      "ActionItem",
+    ],
+    "ActionResult": Array [
+      "User",
+      "Action",
+      "ActionResult",
+    ],
+    "EVERYTHING_INCLUDED": Array [
+      "User",
+      "Action",
+      "Goal",
+      "ActionGoal",
+      "ActionItem",
+      "ActionResult",
+      "GoalExplanation",
+      "NewsUpdate",
+      "OrganizationProfile",
+      "UserAction",
+      "UserActionItem",
+      "UserActionResult",
+      "UserCharacteristic",
+      "UserConnection",
+      "UserContact",
+      "UserEmail",
+      "UserPassAction",
+      "UserProfile",
+      "UserSavedAction",
+      "UserSetting",
+      "ZipCode",
+      "EVERYTHING_INCLUDED",
+    ],
+    "Goal": Array [
+      "Goal",
+    ],
+    "GoalExplanation": Array [
+      "Goal",
+      "GoalExplanation",
+    ],
+    "NewsUpdate": Array [
+      "NewsUpdate",
+    ],
+    "OrganizationProfile": Array [
+      "User",
+      "OrganizationProfile",
+    ],
+    "User": Array [
+      "User",
+    ],
+    "UserAction": Array [
+      "User",
+      "Action",
+      "UserAction",
+    ],
+    "UserActionItem": Array [
+      "User",
+      "Action",
+      "UserAction",
+      "ActionItem",
+      "UserActionItem",
+    ],
+    "UserActionResult": Array [
+      "User",
+      "Action",
+      "UserAction",
+      "ActionResult",
+      "UserActionResult",
+    ],
+    "UserCharacteristic": Array [
+      "User",
+      "UserCharacteristic",
+    ],
+    "UserConnection": Array [
+      "User",
+      "UserConnection",
+    ],
+    "UserContact": Array [
+      "User",
+      "UserContact",
+    ],
+    "UserEmail": Array [
+      "User",
+      "UserEmail",
+    ],
+    "UserPassAction": Array [
+      "User",
+      "Action",
+      "UserPassAction",
+    ],
+    "UserProfile": Array [
+      "User",
+      "UserProfile",
+    ],
+    "UserSavedAction": Array [
+      "User",
+      "Action",
+      "UserSavedAction",
+    ],
+    "UserSetting": Array [
+      "User",
+      "UserSetting",
+    ],
+    "ZipCode": Array [
+      "ZipCode",
+    ],
+  },
+  "longest": Array [
+    "User",
+    "Action",
+    "Goal",
+    "ActionGoal",
+    "ActionItem",
+    "ActionResult",
+    "GoalExplanation",
+    "NewsUpdate",
+    "OrganizationProfile",
+    "UserAction",
+    "UserActionItem",
+    "UserActionResult",
+    "UserCharacteristic",
+    "UserConnection",
+    "UserContact",
+    "UserEmail",
+    "UserPassAction",
+    "UserProfile",
+    "UserSavedAction",
+    "UserSetting",
+    "ZipCode",
+    "EVERYTHING_INCLUDED",
+  ],
+}
+`;
