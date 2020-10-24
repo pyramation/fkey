@@ -1,356 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`circular 1`] = `
-Object {
-  "Commit": Object {
-    "resolved": Array [
-      "Tree",
-      "User",
-      "Ref",
-      "Commit",
-    ],
-    "unresolved": Array [
-      "Commit",
-      "Tree",
-      "User",
-      "Ref",
-    ],
-  },
-  "EVERYTHING_INCLUDED": Object {
-    "resolved": Array [
-      "Tree",
-      "User",
-      "Ref",
-      "Commit",
-      "EVERYTHING_INCLUDED",
-    ],
-    "unresolved": Array [
-      "EVERYTHING_INCLUDED",
-      "Tree",
-      "Commit",
-      "User",
-      "Ref",
-    ],
-  },
-  "Ref": Object {
-    "resolved": Array [
-      "Tree",
-      "User",
-      "Commit",
-      "Ref",
-    ],
-    "unresolved": Array [
-      "Ref",
-      "Commit",
-      "Tree",
-      "User",
-    ],
-  },
-  "Tree": Object {
-    "resolved": Array [
-      "Tree",
-    ],
-    "unresolved": Array [
-      "Tree",
-    ],
-  },
-  "User": Object {
-    "resolved": Array [
-      "User",
-    ],
-    "unresolved": Array [
-      "User",
-    ],
-  },
-}
-`;
-
-exports[`regular 1`] = `
-Object {
-  "Action": Object {
-    "resolved": Array [
-      "User",
-      "Action",
-    ],
-    "unresolved": Array [
-      "Action",
-      "User",
-    ],
-  },
-  "ActionGoal": Object {
-    "resolved": Array [
-      "User",
-      "Action",
-      "Goal",
-      "ActionGoal",
-    ],
-    "unresolved": Array [
-      "ActionGoal",
-      "Action",
-      "User",
-      "Goal",
-    ],
-  },
-  "ActionItem": Object {
-    "resolved": Array [
-      "User",
-      "Action",
-      "ActionItem",
-    ],
-    "unresolved": Array [
-      "ActionItem",
-      "Action",
-      "User",
-    ],
-  },
-  "ActionResult": Object {
-    "resolved": Array [
-      "User",
-      "Action",
-      "ActionResult",
-    ],
-    "unresolved": Array [
-      "ActionResult",
-      "Action",
-      "User",
-    ],
-  },
-  "EVERYTHING_INCLUDED": Object {
-    "resolved": Array [
-      "User",
-      "Action",
-      "Goal",
-      "ActionGoal",
-      "ActionItem",
-      "ActionResult",
-      "GoalExplanation",
-      "NewsUpdate",
-      "OrganizationProfile",
-      "UserAction",
-      "UserActionItem",
-      "UserActionResult",
-      "UserCharacteristic",
-      "UserConnection",
-      "UserContact",
-      "UserEmail",
-      "UserPassAction",
-      "UserProfile",
-      "UserSavedAction",
-      "UserSetting",
-      "ZipCode",
-      "EVERYTHING_INCLUDED",
-    ],
-    "unresolved": Array [
-      "EVERYTHING_INCLUDED",
-      "ActionGoal",
-      "Action",
-      "User",
-      "Goal",
-      "ActionItem",
-      "ActionResult",
-      "GoalExplanation",
-      "NewsUpdate",
-      "OrganizationProfile",
-      "UserActionItem",
-      "UserAction",
-      "UserActionResult",
-      "UserCharacteristic",
-      "UserConnection",
-      "UserContact",
-      "UserEmail",
-      "UserPassAction",
-      "UserProfile",
-      "UserSavedAction",
-      "UserSetting",
-      "ZipCode",
-    ],
-  },
-  "Goal": Object {
-    "resolved": Array [
-      "Goal",
-    ],
-    "unresolved": Array [
-      "Goal",
-    ],
-  },
-  "GoalExplanation": Object {
-    "resolved": Array [
-      "Goal",
-      "GoalExplanation",
-    ],
-    "unresolved": Array [
-      "GoalExplanation",
-      "Goal",
-    ],
-  },
-  "NewsUpdate": Object {
-    "resolved": Array [
-      "NewsUpdate",
-    ],
-    "unresolved": Array [
-      "NewsUpdate",
-    ],
-  },
-  "OrganizationProfile": Object {
-    "resolved": Array [
-      "User",
-      "OrganizationProfile",
-    ],
-    "unresolved": Array [
-      "OrganizationProfile",
-      "User",
-    ],
-  },
-  "User": Object {
-    "resolved": Array [
-      "User",
-    ],
-    "unresolved": Array [
-      "User",
-    ],
-  },
-  "UserAction": Object {
-    "resolved": Array [
-      "User",
-      "Action",
-      "UserAction",
-    ],
-    "unresolved": Array [
-      "UserAction",
-      "User",
-      "Action",
-    ],
-  },
-  "UserActionItem": Object {
-    "resolved": Array [
-      "User",
-      "Action",
-      "UserAction",
-      "ActionItem",
-      "UserActionItem",
-    ],
-    "unresolved": Array [
-      "UserActionItem",
-      "User",
-      "Action",
-      "UserAction",
-      "ActionItem",
-    ],
-  },
-  "UserActionResult": Object {
-    "resolved": Array [
-      "User",
-      "Action",
-      "UserAction",
-      "ActionResult",
-      "UserActionResult",
-    ],
-    "unresolved": Array [
-      "UserActionResult",
-      "User",
-      "Action",
-      "UserAction",
-      "ActionResult",
-    ],
-  },
-  "UserCharacteristic": Object {
-    "resolved": Array [
-      "User",
-      "UserCharacteristic",
-    ],
-    "unresolved": Array [
-      "UserCharacteristic",
-      "User",
-    ],
-  },
-  "UserConnection": Object {
-    "resolved": Array [
-      "User",
-      "UserConnection",
-    ],
-    "unresolved": Array [
-      "UserConnection",
-      "User",
-    ],
-  },
-  "UserContact": Object {
-    "resolved": Array [
-      "User",
-      "UserContact",
-    ],
-    "unresolved": Array [
-      "UserContact",
-      "User",
-    ],
-  },
-  "UserEmail": Object {
-    "resolved": Array [
-      "User",
-      "UserEmail",
-    ],
-    "unresolved": Array [
-      "UserEmail",
-      "User",
-    ],
-  },
-  "UserPassAction": Object {
-    "resolved": Array [
-      "User",
-      "Action",
-      "UserPassAction",
-    ],
-    "unresolved": Array [
-      "UserPassAction",
-      "User",
-      "Action",
-    ],
-  },
-  "UserProfile": Object {
-    "resolved": Array [
-      "User",
-      "UserProfile",
-    ],
-    "unresolved": Array [
-      "UserProfile",
-      "User",
-    ],
-  },
-  "UserSavedAction": Object {
-    "resolved": Array [
-      "User",
-      "Action",
-      "UserSavedAction",
-    ],
-    "unresolved": Array [
-      "UserSavedAction",
-      "User",
-      "Action",
-    ],
-  },
-  "UserSetting": Object {
-    "resolved": Array [
-      "User",
-      "UserSetting",
-    ],
-    "unresolved": Array [
-      "UserSetting",
-      "User",
-    ],
-  },
-  "ZipCode": Object {
-    "resolved": Array [
-      "ZipCode",
-    ],
-    "unresolved": Array [
-      "ZipCode",
-    ],
-  },
-}
-`;
-
 exports[`works 1`] = `
 Object {
   "Action": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "Action",
@@ -361,6 +14,7 @@ Object {
     ],
   },
   "ActionGoal": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "Action",
@@ -375,6 +29,7 @@ Object {
     ],
   },
   "ActionItem": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "Action",
@@ -387,6 +42,7 @@ Object {
     ],
   },
   "ActionResult": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "Action",
@@ -399,6 +55,7 @@ Object {
     ],
   },
   "EVERYTHING_INCLUDED": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "Action",
@@ -449,6 +106,7 @@ Object {
     ],
   },
   "Goal": Object {
+    "circular": Array [],
     "resolved": Array [
       "Goal",
     ],
@@ -457,6 +115,7 @@ Object {
     ],
   },
   "GoalExplanation": Object {
+    "circular": Array [],
     "resolved": Array [
       "Goal",
       "GoalExplanation",
@@ -467,6 +126,7 @@ Object {
     ],
   },
   "NewsUpdate": Object {
+    "circular": Array [],
     "resolved": Array [
       "NewsUpdate",
     ],
@@ -475,6 +135,7 @@ Object {
     ],
   },
   "OrganizationProfile": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "OrganizationProfile",
@@ -485,6 +146,7 @@ Object {
     ],
   },
   "User": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
     ],
@@ -493,6 +155,7 @@ Object {
     ],
   },
   "UserAction": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "Action",
@@ -505,6 +168,7 @@ Object {
     ],
   },
   "UserActionItem": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "Action",
@@ -521,6 +185,7 @@ Object {
     ],
   },
   "UserActionResult": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "Action",
@@ -537,6 +202,7 @@ Object {
     ],
   },
   "UserCharacteristic": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "UserCharacteristic",
@@ -547,6 +213,7 @@ Object {
     ],
   },
   "UserConnection": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "UserConnection",
@@ -557,6 +224,7 @@ Object {
     ],
   },
   "UserContact": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "UserContact",
@@ -567,6 +235,7 @@ Object {
     ],
   },
   "UserEmail": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "UserEmail",
@@ -577,6 +246,7 @@ Object {
     ],
   },
   "UserPassAction": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "Action",
@@ -589,6 +259,7 @@ Object {
     ],
   },
   "UserProfile": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "UserProfile",
@@ -599,6 +270,7 @@ Object {
     ],
   },
   "UserSavedAction": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "Action",
@@ -611,6 +283,7 @@ Object {
     ],
   },
   "UserSetting": Object {
+    "circular": Array [],
     "resolved": Array [
       "User",
       "UserSetting",
@@ -621,6 +294,7 @@ Object {
     ],
   },
   "ZipCode": Object {
+    "circular": Array [],
     "resolved": Array [
       "ZipCode",
     ],
