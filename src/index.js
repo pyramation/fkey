@@ -30,31 +30,24 @@ export default (tree) => {
     table.foreignKeyConstraints.forEach(({ refTable }) => {
       if (!resolved.includes(refTable.name)) {
         if (unresolved.includes(refTable.name)) {
-          throw new Error(
-            `Circular reference detected: ${table.name}, ${refTable.name}`
-          );
+          //   throw new Error(
+          //     `Circular reference detected: ${table.name}, ${refTable.name}`
+          //   );
+        } else {
+          const next = tree.tables.find((t) => t.name === refTable.name);
+          depResolve(next, resolved, unresolved);
         }
-        const next = tree.tables.find((t) => t.name === refTable.name);
-        depResolve(next, resolved, unresolved);
       }
     });
     resolved.push(table.name);
     unresolved = unresolved.filter((name) => name != table.name);
   };
 
-  let longest;
-  const all = tree.tables.reduce((m, table) => {
+  return tree.tables.reduce((m, table) => {
     const resolved = [];
     const unresolved = [];
     depResolve(table, resolved, unresolved);
-    m[table.name] = resolved;
-    if (!longest || resolved.length > longest.length) {
-      longest = resolved;
-    }
+    m[table.name] = { resolved, unresolved };
     return m;
   }, {});
-  return {
-    all,
-    longest
-  };
 };
